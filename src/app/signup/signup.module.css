@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, rgba(255, 0, 199, 0.16) 0.09%, rgba(0, 0, 0, 0) 60%);
+    background-color: #000;
+}
+
+.line5 {
+  position: absolute;
+  right: 1467px;
+  bottom: 353px;
+}
+
+.line6 {
+  position: absolute;
+  left: 1777px;
+  bottom: 155.69px;
+}
+
+.line7 {
+  position: absolute;
+  left: 1288px;
+  top: 455px;
+}
+
+.line8 {
+  position: absolute;
+  left: 1604.87px;
+}
+
+.line9 {
+  position: absolute;
+  right: 1670px;
+}
+
+.line10 {
+  position: absolute;
+  right: 1185.52px;
+  top: 657px;
+}
+
+.card {
+  background: #000;
+  padding: 55px;
+  border-radius: 64px;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+  text-align: center;
+  width: 584px;
+  height: 730px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 30px rgba(255, 0, 199, 0.50);
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 42px;
+}
+
+.inputGroup {
+    margin-bottom: 24px;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.Icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  aspect-ratio: 1/1;
+}
+
+.customInput {
+  width: 100%;
+  padding: 15px 32px;
+  padding-left: 50px;
+  font-size: 16px;
+  color: white;
+  background: black;
+  border: 1px solid rgba(128, 0, 128, 0.3);
+  border-radius: 25px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+.customInput:focus {
+  border-color: #9b59b6;
+  box-shadow: 0 0 10px rgba(155, 89, 182, 0.7);
+}
+
+.customInput::placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+  
+  .button {
+    height: 60px;
+    padding: 0px 42px;
+    background: #38002C;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 52px;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  } 
+    
+  .socialText {
+    color: #fff;
+    margin-top: 32px;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .socialIcons {
+    display: flex;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 72px;
+  }
+  
+  .icon {
+    display: flex;
+    width: 72px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 53px;
+    background: #38002C;
+    padding: 9px;
+  }

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import styles from "./signin.module.css";
-//import { loginUser } from "./../../services/authService";
+import { loginUser } from "./../../services/authService";
 
 export default function SigninPage() {
   const [email, setEmail] = useState("");

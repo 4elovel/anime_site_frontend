@@ -1,0 +1,151 @@
+.settingsContainer {
+    display: flex;
+    flex: 1;
+    color: #FFF;
+    margin: 82px;
+    z-index: 1000;
+}
+
+.settings {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px 0;
+    /*background: #1e1e2a;*/
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 256px;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.menuItem:hover,
+.menuItem:focus,
+.menuItem.active {
+    border-radius: 8px;
+    border: 1px solid #49638A;
+}
+
+/*.menuItem.active {*/
+/*    border-radius: 8px;*/
+/*    border: 1px solid #49638A;*/
+/*}*/
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.label {
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mainContent {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /*margin: 0 auto;*/
+}
+
+.content h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/*.content p {*/
+/*    font-size: 12px;*/
+/*    font-family: 'Inter', sans-serif;*/
+/*    font-weight: 500;*/
+/*    color: #b0b0b0;*/
+/*}*/
+
+.content_basic_settings {
+    display: flex;
+    gap: 220px;
+    margin-left: 180px;
+}
+
+.content_p_basic_settings {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.content_basic_settings_language {
+    color: #918C8C;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.content select {
+}
+
+.content_basic_settings_toggle_after_lang_subt {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.content_basic_settings_toggle_after_lang_subt h3 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+}
+
+/* Мобільна адаптивність */
+@media (max-width: 768px) {
+    .settingsContainer {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #333;
+    }
+
+    .menuItem {
+        padding: 10px 15px;
+    }
+
+    .mainContent {
+        padding: 15px;
+    }
+}

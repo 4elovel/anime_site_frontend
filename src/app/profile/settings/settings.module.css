@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(73, 99, 138, 0.35) -15%, rgba(0, 0, 0, 0) 100%);
+    background-color: #000;
+}
+
+.line5 {
+    position: absolute;
+    right: 1467px;
+    bottom: 353px;
+}
+
+.line6 {
+    position: absolute;
+    left: 1820px;
+    bottom: 155.69px;
+}
+
+.line7 {
+    position: absolute;
+    left: 1335px;
+    top: 455px;
+}
+
+.line8 {
+    position: absolute;
+    left: 1630px;
+}
+
+.line9 {
+    position: absolute;
+    right: 1670px;
+}
+
+.line10 {
+    position: absolute;
+    right: 1185.52px;
+    top: 657px;
+}
+
+.header_settings {
+    display: flex;
+    width: 1920px;
+    height: 100px;
+    padding: 24px 82px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.menuWrapper {
+    flex: 1;                  /* забирає весь простір після хедера */
+    display: flex;
+    justify-content: center;  /* по горизонталі в центр */
+    align-items: center;      /* по вертикалі в центр */
+}

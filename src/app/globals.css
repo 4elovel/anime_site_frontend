@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import "tailwindcss";
+/*@import "tailwindcss";*/
 
 
 html, body {
@@ -9,4 +9,61 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background: linear-gradient(180deg, rgba(73, 99, 138, 0.35) -15%, rgba(0, 0, 0, 0) 100%), #000;
+  /*background-color: #000;  */
+  /*background-image: url('/Slide 16_9 - 1.png');*/
+}
+
+.container {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  max-width: 100vw;
+}
+
+.header_main_page {
+  display: flex;
+  width: 1920px;
+  height: 100px;
+  padding: 24px 82px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.header_buttons {
+  display: flex;
+  gap: 28px;
+  color: #fff;
+  position: absolute;
+  top: 24px;
+  right: 82px;
+  justify-content: flex-end;
+  /*width: 100%;*/
+  /*flex-direction: column;*/
+}
+
+.header_button_login {
+  border-radius: 18px;
+  border: 1px solid #49638A;
+  background: rgba(0, 0, 0, 0.02);
+  backdrop-filter: blur(3.25px);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15.5px 50px;
+}
+
+.header_button_signup {
+  border-radius: 18px;
+  border: 1px solid #49638A;
+  background: #49638A;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15.5px 31.1874494552612px;
 }

@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="telegram">
 <path id="Vector" d="M27 50C39.4264 50 49.5 39.9264 49.5 27.5C49.5 15.0736 39.4264 5 27 5C14.5736 5 4.5 15.0736 4.5 27.5C4.5 39.9264 14.5736 50 27 50Z" fill="#38002C" stroke="white" stroke-width="1.5"/>
 <path id="Vector_2" d="M27 27.5H38.25C38.25 33.7131 33.2131 38.75 27 38.75C20.7868 38.75 15.75 33.7131 15.75 27.5C15.75 21.2868 20.7868 16.25 27 16.25C30.1066 16.25 32.9191 17.5092 34.9549 19.5451" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
+=======
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="72" height="72" rx="36" fill="#49638A"/>
+<path d="M36 58.5C48.4264 58.5 58.5 48.4264 58.5 36C58.5 23.5736 48.4264 13.5 36 13.5C23.5736 13.5 13.5 23.5736 13.5 36C13.5 48.4264 23.5736 58.5 36 58.5Z" fill="#49638A" stroke="white" stroke-width="1.5"/>
+<path d="M36 36H47.25C47.25 42.2131 42.2131 47.25 36 47.25C29.7868 47.25 24.75 42.2131 24.75 36C24.75 29.7868 29.7868 24.75 36 24.75C39.1066 24.75 41.9191 26.0092 43.9549 28.0451" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+>>>>>>> origin/main
 </svg>

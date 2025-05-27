@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 <svg width="116" height="3" viewBox="0 0 116 3" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path id="Line 3" d="M1 1.5H115" stroke="url(#paint0_linear_148_569)" stroke-width="2" stroke-linecap="round"/>
 <defs>
 <linearGradient id="paint0_linear_148_569" x1="1" y1="2" x2="115" y2="2" gradientUnits="userSpaceOnUse">
 <stop stop-color="#38002C"/>
 <stop offset="1" stop-color="#38002C" stop-opacity="0"/>
+=======
+<svg width="117" height="2" viewBox="0 0 117 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 1H115.5" stroke="url(#paint0_linear_313_287)" stroke-width="2" stroke-linecap="round"/>
+<defs>
+<linearGradient id="paint0_linear_313_287" x1="1.5" y1="1.5" x2="115.5" y2="1.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#49638A"/>
+<stop offset="1" stop-color="#49638A" stop-opacity="0"/>
+>>>>>>> origin/main
 </linearGradient>
 </defs>
 </svg>

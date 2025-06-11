@@ -36,7 +36,7 @@ export async function registerUser(data) {
       throw new Error("CSRF token not found");
     }
 
-    const response = await fetch(`${API_URL}/api/register`, {
+    const response = await fetch(`${API_URL}/api/v1/auth/register`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -83,7 +83,7 @@ export async function loginUser(credentials) {
       throw new Error("CSRF token not found");
     }
 
-    const response = await fetch(`${API_URL}/api/login`, {
+    const response = await fetch(`${API_URL}/api/v1/auth/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -94,6 +94,12 @@ export async function loginUser(credentials) {
       credentials: "include",
       body: JSON.stringify(credentials),
     });
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      console.error("Login failed:", errorData);
+      throw new Error(errorData.message || "Login failed");
+    }
 
     // First check if response is JSON
     const contentType = response.headers.get("content-type");
@@ -109,7 +115,8 @@ export async function loginUser(credentials) {
     if (!response.ok) {
       throw new Error(responseData.message || "Login failed");
     }
-
+    console.log("Login successful:", responseData);
+    console.log("User ID:", response);
     return responseData;
   } catch (error) {
     console.error("Login error:", error);
@@ -119,7 +126,7 @@ export async function loginUser(credentials) {
 
 export async function getCurrentUser() {
   try {
-    const response = await fetch(`${API_URL}/api/user`, {
+    const response = await fetch(`${API_URL}/api/v1/auth/user`, {
       headers: {
         Accept: "application/json",
         "X-Requested-With": "XMLHttpRequest",
@@ -158,7 +165,7 @@ export async function logoutUser() {
       throw new Error("CSRF token not found");
     }
 
-    const response = await fetch(`${API_URL}/api/logout`, {
+    const response = await fetch(`${API_URL}/api/v1/auth/logout`, {
       method: "POST",
       headers: {
         Accept: "application/json",
